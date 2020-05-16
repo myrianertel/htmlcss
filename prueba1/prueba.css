@@ -1,0 +1,16 @@
+html,
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.div1 {
+    font-size: 30px;
+}

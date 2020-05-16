@@ -1,0 +1,50 @@
+div * {
+    border: 1px solid black;
+    width: 80px;
+    height: 50px;
+    background: white;
+    display: inline-block;
+}
+
+div article:first-of-type {
+    background: green;
+}
+
+div a:only-of-type {
+    background: red;
+}
+
+div p:first-of-type {
+    background: pink;
+}
+
+div aside:empty {
+    background: plum;
+}
+
+div article:not(clase) {
+    background: purple;
+}
+
+
+/*
+:nth-child(N)
+:nth-last-child(N)
+
+:nth-of-type(N)=enumerando los tipos de 
+:nth-last-child(N)=marcando desde  final 
+
+:first-of-type=primero del tipo  
+:last-of-type= final del tipo
+:only-of-type=unico de tipo
+ :empty =vacio ,no tiene nada 
+ :not(s)=que no sea de selector de clase
+
+ :last-child=ultimo hijo
+ :only-child=unico hijo
+ :root= raiz
+ :enable = activado
+ :disable= desactivado
+ :checked= radio desactivado
+ even / odd = par /impar
+ */
